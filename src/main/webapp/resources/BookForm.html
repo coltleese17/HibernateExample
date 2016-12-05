@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Enrollment Form</title>
+</head>
+<body>
+<!--   
+<script>
+function validateForm() {
+    var x = document.forms["form1"]["firstName"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+ onsubmit="return validateForm()" 
+</script> -->
+<h1>Give me a book!</h1>
+<form name = "addBookForm" action="../add" method="post">
+Author:  <input type ="text", name = "author">
+<br>Title:  <input type ="text", name = "title">
+<br>Publisher: <input type ="text", name = "publisher">
+<br>Sales: <input type ="text", name = "sales">
+<input type ="submit" value="Submit">
+</form>
+</body>
+</html>
